@@ -47,7 +47,7 @@ class HomeController extends Controller
             
         return redirect('/')->with([
             'status' => 'success',
-            'new_spiral' => $generatedNum
+            'new_spiral' => $generatedNum + 1
         ]);
 
         }
