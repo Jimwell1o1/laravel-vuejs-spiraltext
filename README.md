@@ -19,7 +19,7 @@ copy .env.example .env
 php artisan key:generate
 ```
 
-### Run in the command:
+### Run in the command to migrate database:
 ```
 php artisan migrate
 ```
