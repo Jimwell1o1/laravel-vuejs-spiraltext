@@ -24,7 +24,17 @@ php artisan key:generate
 php artisan migrate
 ```
 
-#### After that, you may now start laravel by running in the comment
+#### Also, run this command to compile all the assets
+```
+npm install
+```
+
+```
+npm run dev
+```
+
+
+#### After that, you may now start laravel by running in the command
 ```
 php artisan serve
 ```
