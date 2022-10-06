@@ -7,15 +7,27 @@
 #  How to Use:
 
 ### Run in the command:
-```composer install```
-```copy .env.example .env```
-```php artisan key:generate```
+```
+composer install
+```
+
+```
+copy .env.example .env
+```
+
+```
+php artisan key:generate
+```
 
 ### Run in the command:
-```php artisan migrate```
+```
+php artisan migrate
+```
 
 #### After that, you may now start laravel by running in the comment
-```php artisan serve```
+```
+php artisan serve
+```
 
 
 ## Instructions
